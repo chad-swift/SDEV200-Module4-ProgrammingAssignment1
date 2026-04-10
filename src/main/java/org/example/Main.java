@@ -9,7 +9,7 @@ import java.util.Stack;
 // This checks whether a Java file source code has a complete set of matching each type of brace
 // Chad Swift
 // SDEV200-50P
-// Module 1 Assignment 1
+// Module 4 Assignment 1
 
 public class Main {
 
