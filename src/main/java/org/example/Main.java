@@ -126,7 +126,7 @@ class GroupingSymbolsFileChecker {
         while (input.hasNextLine()) {
             String line = input.nextLine();
             // continue if the line starts with a comment
-            if (line.startsWith("/")) {
+            if (line.startsWith("/") || line.startsWith("//") || line.startsWith("*")) {
                 continue;
             }
             // take the line, split it into words
